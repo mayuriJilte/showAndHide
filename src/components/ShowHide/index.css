@@ -1,0 +1,35 @@
+/* Write your CSS here */
+.container {
+  background-image: linear-gradient(#fa7257, #fc63a7, #dd1264);
+  height: 100vh;
+  font-size: 28px;
+  font-family: roboto;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.heading{
+  text-align: center;
+  padding: 12px;
+  margin-top: 23px;
+}
+.name {
+  height: 200px;
+  width: 300px;
+  color: #dd1264;
+  background-color: aliceblue;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 12px;
+  margin: 12px;
+}
+
+.card {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
